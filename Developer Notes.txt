@@ -5,9 +5,50 @@ npx create-next-app@latest --typescript --tailwind --eslint
 installing ui templating enging shadcn (Recommended by nextjs)
 npx shadcn-ui@latest init
 
-installing shadcn components, this case button
-npx shadcn-ui@latest add button
-you can also use custom fonts too, check the nextjs shadcn-ui docs
+
+======
+vscode utils
+
+next.nav
+1) renders an architectural view of the routes and component structures
+
+simple react snippits
+1) create react snippits easily like rfce
+=======
+
+=====
+clerk auth
+1) good practise to put in base dir (auth)->(routes)->signup/signin->[[...signup/signin]]
+=====
 
 
+
+======
+Shadcn:
+
+1) all installed components will be stored in components folder, giving more flexibility
+2) you can edit the props like variant by going to variant section in the component and changing the styling,
+you can even add variants
+3) if you ever mess up an installed component, you can reinstall the component but add --overwrite
+4)added   
+
+   body, html{
+    height: 100%;
+  }
+
+  in global.css in root dir to ensure no default padding
+ 		
+
+=====
+
+===
+Next routing
+
+1) to create an api route, common convention is create api folder in app folder,
+then create another folder which is the name of the route, then a route.ts. 
+Then you can access the route via url/api/routename
+
+2) to organize multiple routes, you can put the routes in a (group) folder, which doesnt get added to url
+- this group folder structure is powerful since you can add global styles to all routes inside the folder
+by adding a layout.tsx
 
