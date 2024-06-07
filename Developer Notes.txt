@@ -5,3 +5,9 @@ npx create-next-app@latest --typescript --tailwind --eslint
 installing ui templating enging shadcn (Recommended by nextjs)
 npx shadcn-ui@latest init
 
+installing shadcn components, this case button
+npx shadcn-ui@latest add button
+you can also use custom fonts too, check the nextjs shadcn-ui docs
+
+
+
